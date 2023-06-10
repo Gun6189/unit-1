@@ -40,11 +40,13 @@ randomPerson.printAge()
   height;
   age;
 
-  constructor (name,height,age)    this.name = name;
+  constructor (name,height,age)    {
+    this.name = name;
   this.height = height;
    this.age = age;
     
    }
+   
 name(){
   console.log(`Hi my name is${this.name} I am ${this.age} years old`)
 }
